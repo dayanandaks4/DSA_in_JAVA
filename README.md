@@ -1,1 +1,4 @@
-# DSA_in_JAVA
+## DSA Notes
+### Topics
+
+#### Linear Search
