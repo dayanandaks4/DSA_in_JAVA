@@ -1,0 +1,28 @@
+public class LinearSearchExample {
+
+    public static void main(String[] args) {
+
+        int[] arr = {10, 25, 7, 45, 30};
+        int target = 45;
+
+        int result = linearSearch(arr, target);
+
+        if (result != -1) {
+            System.out.println("Element found at index: " + result);
+        } else {
+            System.out.println("Element not found");
+        }
+    }
+
+    public static int linearSearch(int[] arr, int target) {
+
+        for (int i = 0; i < arr.length; i++) {
+
+            if (arr[i] == target) {
+                return i;
+            }
+        }
+
+        return -1;
+    }
+}
